@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package casbin_service.v1;
+
+import "errors/errors.proto";
+
+option go_package = "github.com/devexps/go-casbin/api/gen/go/casbin_service/v1;v1";
+option java_multiple_files = true;
+option java_package = "dev.gomicro.api.casbin_service.v1";
+
+enum ErrorReason {
+  option (errors.default_code) = 500;
+
+  ENFORCE_INVALID = 0 [(errors.code) = 101];
+  ENFORCE_WITH_MATCHER_FAILED = 1 [(errors.code) = 102];
+  LOAD_POLICY_FAILED = 3 [(errors.code) = 103];
+  SAVE_POLICY_FAILED = 4 [(errors.code) = 104];
+  ADD_NAMED_POLICY_FAILED = 5 [(errors.code) = 105];
+  REMOVE_NAMED_POLICY_FAILED = 6 [(errors.code) = 106];
+  REMOVE_FILTERED_NAMED_POLICY_FAILED = 7 [(errors.code) = 107];
+  ADD_NAMED_GROUPING_POLICY_FAILED = 8 [(errors.code) = 108];
+  REMOVE_NAMED_GROUPING_POLICY_FAILED = 9 [(errors.code) = 109];
+  REMOVE_FILTERED_NAMED_GROUPING_POLICY_FAILED = 10 [(errors.code) = 110];
+  ROLE_MANAGER_IS_NIL = 11 [(errors.code) = 111];
+  GET_USER_ROLES_FAILED = 12 [(errors.code) = 112];
+  GET_IMPLICIT_ROLES_FOR_USER_FAILED = 13 [(errors.code) = 113];
+  GET_USERS_FAILED = 14 [(errors.code) = 114];
+  GET_ROLES_FOR_USER_FAILED = 15 [(errors.code) = 115];
+  ADD_GROUPING_POLICY_FAILED = 16 [(errors.code) = 116];
+  REMOVE_GROUPING_POLICY_FAILED = 17 [(errors.code) = 117];
+  REMOVE_FILTERED_GROUPING_POLICY_FAILED = 18 [(errors.code) = 118];
+  DELETE_USER_FAILED = 19 [(errors.code) = 119];
+  DELETE_ROLE_FAILED = 20 [(errors.code) = 120];
+  GET_IMPLICIT_PERMISSIONS_FOR_USER_FAILED = 21 [(errors.code) = 121];
+  REMOVE_FILTERED_POLICY_FAILED = 22 [(errors.code) = 122];
+  ADD_POLICY_FAILED = 23 [(errors.code) = 123];
+  REMOVE_POLICY_FAILED = 24 [(errors.code) = 124];
+}
