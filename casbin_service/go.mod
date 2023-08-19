@@ -12,7 +12,7 @@ require (
 	github.com/casbin/casbin/v2 v2.71.1
 	github.com/devexps/go-casbin/api v0.0.0-00010101000000-000000000000
 	github.com/devexps/go-casbin/pkg v0.0.0-00010101000000-000000000000
-	github.com/devexps/go-micro/v2 v2.0.0-20230706101852-c0ec2a04972d
+	github.com/devexps/go-micro/v2 v2.0.0-20230819033441-71093fd5593d
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/google/wire v0.5.0
 	github.com/pkg/errors v0.9.1
@@ -28,8 +28,8 @@ require (
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
-	github.com/devexps/go-micro/registry/consul/v2 v2.0.0-20230706101852-c0ec2a04972d // indirect
-	github.com/devexps/go-micro/registry/etcd/v2 v2.0.0-20230706101852-c0ec2a04972d // indirect
+	github.com/devexps/go-micro/registry/consul/v2 v2.0.0-20230819033441-71093fd5593d // indirect
+	github.com/devexps/go-micro/registry/etcd/v2 v2.0.0-20230819033441-71093fd5593d // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/felixge/httpsnoop v1.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
