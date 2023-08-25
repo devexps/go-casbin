@@ -6,9 +6,9 @@ replace github.com/devexps/go-casbin/api => ../api/
 
 require (
 	github.com/devexps/go-casbin/api v0.0.0-00010101000000-000000000000
-	github.com/devexps/go-micro/registry/consul/v2 v2.0.0-20230819033441-71093fd5593d
-	github.com/devexps/go-micro/registry/etcd/v2 v2.0.0-20230819033441-71093fd5593d
-	github.com/devexps/go-micro/v2 v2.0.0-20230819033441-71093fd5593d
+	github.com/devexps/go-micro/registry/consul/v2 v2.0.0-20230819044411-f9c1eb26c1a6
+	github.com/devexps/go-micro/registry/etcd/v2 v2.0.0-20230819044411-f9c1eb26c1a6
+	github.com/devexps/go-micro/v2 v2.0.0-20230819044411-f9c1eb26c1a6
 	github.com/gorilla/handlers v1.5.1
 	github.com/hashicorp/consul/api v1.20.0
 	go.etcd.io/etcd/client/v3 v3.5.8

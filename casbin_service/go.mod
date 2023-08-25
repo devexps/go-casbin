@@ -12,9 +12,11 @@ require (
 	github.com/casbin/casbin/v2 v2.71.1
 	github.com/devexps/go-casbin/api v0.0.0-00010101000000-000000000000
 	github.com/devexps/go-casbin/pkg v0.0.0-00010101000000-000000000000
-	github.com/devexps/go-micro/v2 v2.0.0-20230819033441-71093fd5593d
+	github.com/devexps/go-micro/v2 v2.0.0-20230824092603-e11527d08acc
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/google/wire v0.5.0
+	github.com/jackc/pgx/v4 v4.18.1
+	github.com/lib/pq v1.10.5
 	github.com/pkg/errors v0.9.1
 	golang.org/x/net v0.9.0
 	google.golang.org/protobuf v1.31.0
@@ -28,8 +30,8 @@ require (
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
-	github.com/devexps/go-micro/registry/consul/v2 v2.0.0-20230819033441-71093fd5593d // indirect
-	github.com/devexps/go-micro/registry/etcd/v2 v2.0.0-20230819033441-71093fd5593d // indirect
+	github.com/devexps/go-micro/registry/consul/v2 v2.0.0-20230824092603-e11527d08acc // indirect
+	github.com/devexps/go-micro/registry/etcd/v2 v2.0.0-20230824092603-e11527d08acc // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/felixge/httpsnoop v1.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
@@ -53,6 +55,13 @@ require (
 	github.com/hashicorp/hcl/v2 v2.10.0 // indirect
 	github.com/hashicorp/serf v0.10.1 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
+	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
+	github.com/jackc/pgconn v1.14.0 // indirect
+	github.com/jackc/pgio v1.0.0 // indirect
+	github.com/jackc/pgpassfile v1.0.0 // indirect
+	github.com/jackc/pgproto3/v2 v2.3.2 // indirect
+	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
+	github.com/jackc/pgtype v1.14.0 // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
@@ -72,6 +81,7 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.17.0 // indirect
+	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.7.0 // indirect

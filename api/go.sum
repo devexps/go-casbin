@@ -1,5 +1,5 @@
-github.com/devexps/go-micro/v2 v2.0.0-20230819033441-71093fd5593d h1:bkpSCklwTzvvitCfm5bi0ePRliVqy5QSqfhFbb1zcdU=
-github.com/devexps/go-micro/v2 v2.0.0-20230819033441-71093fd5593d/go.mod h1:qV2ac9OzaI4dZzKD4lC90bgeLyRI+IgmZDlOmewoF4Q=
+github.com/devexps/go-micro/v2 v2.0.0-20230819044411-f9c1eb26c1a6 h1:I8E7ixcbq0tcRasAI2XGgI3ALlnMsnKE7+XPWLnnWs8=
+github.com/devexps/go-micro/v2 v2.0.0-20230819044411-f9c1eb26c1a6/go.mod h1:qV2ac9OzaI4dZzKD4lC90bgeLyRI+IgmZDlOmewoF4Q=
 github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaSAoJOfIk=
 github.com/golang/protobuf v1.5.3 h1:KhyjKVUg7Usr/dYsdSqoFveMYd5ko72D+zANwlG1mmg=
 github.com/golang/protobuf v1.5.3/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiuN0vRsmY=
