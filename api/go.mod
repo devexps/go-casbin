@@ -3,7 +3,7 @@ module github.com/devexps/go-casbin/api
 go 1.18
 
 require (
-	github.com/devexps/go-micro/v2 v2.0.0-20230819044411-f9c1eb26c1a6
+	github.com/devexps/go-micro/v2 v2.0.0-20230828051449-bae977d25bd8
 	google.golang.org/grpc v1.56.2
 	google.golang.org/protobuf v1.31.0
 )
